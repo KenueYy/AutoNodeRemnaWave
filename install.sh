@@ -38,7 +38,7 @@ mkdir -p /opt/remnanode && cd /opt/remnanode
 echo "📝 Создание .env для RemnaNode"
 cat > .env <<EOF
 APP_PORT=${APP_PORT}
-SSL_CERT=${SSL_CERT}
+${SSL_CERT}
 EOF
 
 echo "📝 Создание docker-compose.yml для RemnaNode"
