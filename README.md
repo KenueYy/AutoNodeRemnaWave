@@ -2,4 +2,4 @@ wget -O install_remna_node.sh https://raw.githubusercontent.com/KenueYy/AutoNode
 
 chmod +x install_remna_node.sh
 
-./install_remna_node.sh <domen> <ssl>
+./install_remna_node.sh "domen" "ssl"
